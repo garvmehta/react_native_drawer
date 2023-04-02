@@ -10,11 +10,11 @@ const Profile = () => {
                 >
                     <Image
                         style={ProfileStyle.image}
-                        source={{ uri: 'https://images.unsplash.com/photo-1603415526960-f7e0328c63b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80' }}
+                        source={{ uri: 'https://avatars.githubusercontent.com/u/63910721?v=4' }}
                     />
                 </View>
                 <Text style={ProfileStyle.userNameStyle}>Garv Mehta</Text>
-                <Text style={ProfileStyle.titleStyle}>Application Developer</Text>
+                <Text style={ProfileStyle.titleStyle}>React Native Developer</Text>
             </View>
         </>
     );

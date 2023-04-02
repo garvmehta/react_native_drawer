@@ -9,7 +9,7 @@ const ProfileStyle = StyleSheet.create({
     imageBox: {
         width: 60,
         height: 60,
-        borderRadius:6,
+        borderRadius:30,
         overflow:"hidden"
     },
     image: {
@@ -19,14 +19,14 @@ const ProfileStyle = StyleSheet.create({
         color:'white',
         fontWeight:'500',
         fontSize:18,
-        margin:5,
+        marginVertical:5,
 
     },
     titleStyle:{
         color:'white',
         // fontWeight:'500',
         fontSize:12,
-        marginHorizontal:5,
+        // marginHorizontal:5,
 
     }
 
