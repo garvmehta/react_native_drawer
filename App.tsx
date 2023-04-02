@@ -1,8 +1,12 @@
 import Drawer from './src/components/Drawer';
+import { NavigationContainer } from '@react-navigation/native';
 
 const App = () => {
   return (
-    <Drawer />
+    <NavigationContainer>
+
+      <Drawer />
+    </NavigationContainer>
   );
 };
 

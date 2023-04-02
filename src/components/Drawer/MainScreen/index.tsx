@@ -2,7 +2,8 @@ import { Animated, View } from 'react-native';
 import MainScreenStyle from './style';
 import Header from './Components/Header';
 import { Dimensions } from 'react-native';
-
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
+const Tab = createBottomTabNavigator();
 const MainScreen = () => {
     // borderRadius:10,
     //     transform:[{scale:0.8}, {translateX:Dimensions.get('window').width * 0.5}]
@@ -12,18 +13,19 @@ const MainScreen = () => {
     const openDrawer = (isOpen:boolean) => {
         Animated.parallel([
             Animated.timing(scaleAnimation, {
-                toValue: (isOpen)?1: 0.8,
-                duration: 400,
-                useNativeDriver: true
+                toValue: (isOpen)?1: 0.95,
+                duration: 200,
+                useNativeDriver: true,
+                
             }),
             Animated.timing(radiusAnimation, {
-                toValue: (isOpen)?0: 20,
-                duration: 400,
+                toValue: (isOpen)?0: 10,
+                duration: 200,
                 useNativeDriver: true
             }),
             Animated.timing(moveAnimation, {
                 toValue: (isOpen)?0:Dimensions.get('window').width *  0.5,
-                duration: 400,
+                duration: 200,
                 useNativeDriver: true
             })
         ]).start();
@@ -31,6 +33,7 @@ const MainScreen = () => {
     return (<>
         <Animated.View style={[MainScreenStyle.container, { borderRadius: radiusAnimation, transform: [{ scale: scaleAnimation }, { translateX: moveAnimation }] }]}>
             <Header  toggleDrawer={openDrawer} />
+            
         </Animated.View>
     </>)
 }
