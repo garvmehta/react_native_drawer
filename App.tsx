@@ -1,6 +1,9 @@
+import Drawer from './src/components/Drawer';
+
 const App = () => {
-  // eslint-disable-next-line react/react-in-jsx-scope
-  return <></>;
+  return (
+    <Drawer />
+  );
 };
 
 export default App;
