@@ -14,6 +14,7 @@
 <img src="./screenshots/demo.gif" style="width: 200px;" />
 
 
+
 ## Run Locally
 
 Clone the project
@@ -37,8 +38,9 @@ Install dependencies
 Start React Native App
 
 ```bash
-  npm run android
+  npm start
 ```
+
 
 
 
