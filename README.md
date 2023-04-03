@@ -17,7 +17,7 @@
 
 
 ## 🛠 Skills
-React Native, Typescript 
+React Native, Typescript, NPM
 
 
 ## Authors
