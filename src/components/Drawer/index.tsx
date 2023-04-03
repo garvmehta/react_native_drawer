@@ -14,14 +14,14 @@ const Drawer = (props: DrawerPropType) => {
   return (
     <>
       {/* <StatusBar translucent={true} backgroundColor={'transparent'}/> */}
-      <View style={{ flex: 1, position: 'relative' }}>
+      <View style={[  { flex: 1, position: 'relative' }]}>
         <View
-          style={[style.container]}
+          style={[style.container, props.style]}
         >
           <Profile />
           <NavigationTab tabList={props.tabs} activeTab={active} setActiveTab={setActive} />
         </View>
-        <MainScreen activeTab={active} tabList={props.tabs} />
+        <MainScreen activeTab={active} tabList={props.tabs}  />
       </View>
     </>
 

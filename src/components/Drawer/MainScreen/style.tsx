@@ -8,6 +8,7 @@ const MainScreenStyle= StyleSheet.create({
         position:'absolute',
         backgroundColor:'white',
         zIndex:2,
+        paddingVertical:20
         
     }
 })

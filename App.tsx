@@ -8,7 +8,8 @@ import Home from './src/pages/home';
 import Search from './src/pages/search';
 import Notification from './src/pages/notification';
 import Settings from './src/pages/settings';
-let tabList: Array<DrawerTabType> = [
+import {StatusBar, View} from 'react-native';
+const tabList: Array<DrawerTabType> = [
   {
     title: 'Home',
     icon: <Icons
@@ -49,9 +50,11 @@ let tabList: Array<DrawerTabType> = [
 ];
 const App = () => {
   return (
-    <NavigationContainer>
-      <Drawer tabs={tabList} />
-    </NavigationContainer>
+    <>
+      <StatusBar translucent={true} backgroundColor={'transparent'} barStyle={'dark-content'} />
+      <Drawer tabs={tabList} style={{paddingTop:StatusBar.currentHeight}} />
+    </>
+
   );
 };
 

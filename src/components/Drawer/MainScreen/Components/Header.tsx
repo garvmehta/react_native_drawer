@@ -43,7 +43,8 @@ const Header = (props: HeaderProps) => {
 const style = StyleSheet.create({
     container: {
         width: "100%",
-        padding: 16,
+        paddingHorizontal: 16,
+        paddingVertical:4
     }
 })
 export default Header;

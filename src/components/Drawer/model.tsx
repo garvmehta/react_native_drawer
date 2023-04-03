@@ -1,3 +1,5 @@
+import { StyleProp, ViewStyle } from "react-native";
+
 export type DrawerTabType = {
     title: string;
     icon: React.ReactNode;
@@ -5,4 +7,5 @@ export type DrawerTabType = {
 }
 export type DrawerPropType = {
     tabs: Array<DrawerTabType>;
+    style?: StyleProp<ViewStyle>;
 }
