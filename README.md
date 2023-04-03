@@ -6,13 +6,12 @@
 
 
 ## Screenshot
+<img src="./screenshots/preview.jpg" style="width: 200px;" />
 
-<img src="./screenshots/demo.gif" style="width: 200px;" />
                                                                                                                
 ## Preview
 
-<img src="./screenshots/preview.jpg" style="width: 200px;" />
-
+<img src="./screenshots/demo.gif" style="width: 200px;" />
 
 
 
