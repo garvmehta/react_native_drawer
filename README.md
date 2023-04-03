@@ -7,7 +7,7 @@
 
 ## Screenshot
 
-<img src="https://raw.githubusercontent.com/garvmehta/react_native_drawer/main/screenshots/preview.jpg" width="40%  />
+<img src="./screenshots/demo.gif" style="width: 100px;" />
                                                                                                                
 ## Preview
 
