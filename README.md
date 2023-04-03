@@ -7,11 +7,11 @@
 
 ## Screenshot
 
-<img src="./screenshots/demo.gif" style="width: 100px;" />
+<img src="./screenshots/demo.gif" style="width: 200px;" />
                                                                                                                
 ## Preview
 
-![App Screenshot](https://raw.githubusercontent.com/garvmehta/react_native_drawer/main/screenshots/demo.gif)
+<img src="./screenshots/preview.jpg" style="width: 200px;" />
 
 
 
